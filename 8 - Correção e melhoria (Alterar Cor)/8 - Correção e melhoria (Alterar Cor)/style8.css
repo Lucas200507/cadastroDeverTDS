@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 300px;
+  align-self: center;  
+  justify-content: center;
+  margin: 50px auto;
+  text-align: center;
+  border: solid 1px black;
+  padding: 2em;
+  border-radius: 10%;
+  font-family: sans-serif;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.281);
+}
+
+.container select, button{
+  margin: 1em;
+  height: 2em;
+}

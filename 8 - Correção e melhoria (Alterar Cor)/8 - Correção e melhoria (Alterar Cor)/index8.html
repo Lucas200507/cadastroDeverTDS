@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Alterar Cor</title>
+  <link rel="stylesheet" href="style8.css">
+  <!-- defer - rodar o código em segundo plano -->
+  <script src="script8.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Mudar cor do texto</h1>
+    <select id="corSelecionada">
+      <!-- declara as opções e verifica o valor atribuido a cada opção -->
+      <option value="red">Vermelho</option>
+      <option value="blue">Azul</option>
+      <option value="green">Verde</option>
+      <option value="black">Preto</option>
+      <option value="white">Branco</option>
+      <option value="violet">Violeta</option>
+      <option value="pink">Rosa</option>
+    </select>
+    <!-- Declara a função mudar cor do texto -->
+    <button onclick="mudarCor()">Aplicar Cor</button>
+    <p id="texto">Este texto mudará de cor</p>
+  </div>
+</body>
+
+</html>
